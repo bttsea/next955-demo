@@ -1,0 +1,17 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "private_why": "private: true 是建议加上的，防止误发布到 npm",
+  "scripts": {
+    "dev": "cross-env NODE_OPTIONS=--inspect node ../next/dist/bin/next dev"
+  },
+  "dependencies": {
+    "next": "file:../next",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
