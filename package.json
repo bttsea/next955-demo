@@ -1,4 +1,8 @@
 {
   "private": true,
-  "workspaces": ["packages/*"]
+  "workspaces": ["packages/*"],
+  "resolutions": {
+    "@zeit/ncc": "0.22.0",
+    "next/@zeit/ncc": "0.22.0"
+  }
 }

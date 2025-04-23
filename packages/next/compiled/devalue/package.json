@@ -1,1 +1,5 @@
-{"name":"devalue","main":"devalue.umd.js","license":"MIT"}
+{
+  "name": "devalue",
+  "main": "devalue.umd",
+  "license": "MIT"
+}

@@ -1,11 +1,32 @@
 {
   "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "jsx": "preserve",
     "strict": true,
-    "module": "esnext",
-    "target": "ES2017",
     "esModuleInterop": true,
-    "moduleResolution": "node",
-    "jsx": "react"
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "declarationDir": "dist",
+    "emitDeclarationOnly": false,
+    "noEmit": false
   },
-  "exclude": ["dist", "./*.d.ts"]
+  "include": [
+    "bin/**/*",
+    "cli/**/*",
+    "lib/**/*",
+    "server/**/*",
+    "build/**/*",
+    "export/**/*",
+    "client/**/*",
+    "pages/**/*",
+    "telemetry/**/*",
+    "next-server/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "compiled"
+  ]
 }

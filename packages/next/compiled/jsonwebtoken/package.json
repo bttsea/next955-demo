@@ -1,1 +1,6 @@
-{"name":"jsonwebtoken","main":"index.js","author":"auth0","license":"MIT"}
+{
+  "name": "jsonwebtoken",
+  "main": "index",
+  "author": "auth0",
+  "license": "MIT"
+}

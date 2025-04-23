@@ -1,1 +1,6 @@
-{"name":"cookie","main":"index.js","author":"Roman Shtylman <shtylman@gmail.com>","license":"MIT"}
+{
+  "name": "cookie",
+  "main": "index",
+  "author": "Roman Shtylman <shtylman@gmail.com>",
+  "license": "MIT"
+}

@@ -1,1 +1,5 @@
-{"name":"etag","main":"index.js","license":"MIT"}
+{
+  "name": "etag",
+  "main": "index",
+  "license": "MIT"
+}

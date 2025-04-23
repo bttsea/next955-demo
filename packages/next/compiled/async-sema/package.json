@@ -1,1 +1,6 @@
-{"name":"async-sema","main":"index.js","author":"Olli Vanhoja","license":"MIT"}
+{
+  "name": "async-sema",
+  "main": "index",
+  "author": "Olli Vanhoja",
+  "license": "MIT"
+}

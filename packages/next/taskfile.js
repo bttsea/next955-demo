@@ -636,6 +636,8 @@ export async function build(task) {
 export default async function (task) {
   await task.clear('dist')
   await task.start('build')
+
+  
   await task.watch('bin/*', 'bin')
   await task.watch('pages/**/*.+(js|ts|tsx)', 'pages')
   await task.watch('server/**/*.+(js|ts|tsx)', 'server')

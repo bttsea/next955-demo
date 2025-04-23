@@ -1,1 +1,6 @@
-{"name":"lru-cache","main":"index.js","author":"Isaac Z. Schlueter <i@izs.me>","license":"ISC"}
+{
+  "name": "lru-cache",
+  "main": "index",
+  "author": "Isaac Z. Schlueter <i@izs.me>",
+  "license": "ISC"
+}

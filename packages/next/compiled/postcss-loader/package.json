@@ -1,1 +1,6 @@
-{"name":"postcss-loader","main":"index.js","author":"Andrey Sitnik <andrey@sitnik.ru>","license":"MIT"}
+{
+  "name": "postcss-loader",
+  "main": "index",
+  "author": "Andrey Sitnik <andrey@sitnik.ru>",
+  "license": "MIT"
+}
